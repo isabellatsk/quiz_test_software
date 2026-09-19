@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #fca6bc, #c43352);
+    margin: 0;
+    padding: 0;
+}
+.caixa {
+    max-width: 500px;
+    margin: 50px auto;
+    background: white;
+    padding: 20px 40px 20px 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+h1 {
+    color: #ffffff;
+    text-align: center;
+    text-transform: uppercase;
+}
+.caixa #resultado h2{
+    text-align: center;
+}
+h3{
+    margin: 0;
+    padding: 0;;
+    font-size: 13px;
+    text-align: center;
+    color: #dbdbdb;
+}
+#pergunta {
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+button {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #e0e0e0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+#respostas button:hover {
+    background-color: #d4d4d4;
+}
+#respostas button.certa {
+    background-color: #8bc34a;
+    color: #ffffff;
+}
+#respostas button.errada {
+    background-color: #f44336;
+    color: white;
+}
+#btn-prox {
+    display: block;
+    width: 100%;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color:  #fca6bc;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.oculto {
+    display: none;
+}
